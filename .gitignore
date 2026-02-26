@@ -1,3 +1,15 @@
+# Data and Results (영상, 실험 결과 등 데이터 파일)
+data/
+experiments/
+results/
+output/
+
+# Model Weights (수백 MB 단위의 무거운 모델 가중치 미포함)
+models/*.pt
+models/*.pth
+models/*.onnx
+*.engine
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

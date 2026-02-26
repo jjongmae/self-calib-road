@@ -1,0 +1,15 @@
+# 영상 처리 (contrib = 기본 기능 + ximgproc 등 추가 모듈 포함)
+opencv-contrib-python
+numpy
+
+# Ultralytics (SAM3 + YOLO 통합 패키지)
+ultralytics
+
+# 최적화
+scipy
+
+# UI
+PySide6
+
+# 유틸리티
+tqdm
