@@ -2,6 +2,12 @@
 
 from src.detection.vehicle_detector import VehicleDetector, Detection
 from src.detection.vehicle_tracker import VehicleTracker
-from src.detection.lane_detector import LaneDetector, Lane, LaneSegment
+from src.detection.pole_detector import PoleDetector, VerticalStructure
 
-__all__ = ['VehicleDetector', 'VehicleTracker', 'Detection', 'LaneDetector', 'Lane', 'LaneSegment']
+__all__ = [
+    'VehicleDetector',
+    'VehicleTracker',
+    'Detection',
+    'PoleDetector',
+    'VerticalStructure'
+]

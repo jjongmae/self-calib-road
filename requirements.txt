@@ -13,3 +13,4 @@ PySide6
 
 # 유틸리티
 tqdm
+pyyaml
